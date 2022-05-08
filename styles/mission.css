@@ -1,0 +1,6 @@
+
+#mission::before {
+    content: '';
+    display: block;
+    margin-block-start: 69px;
+}

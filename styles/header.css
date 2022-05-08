@@ -2,25 +2,44 @@ header {
     height: 4.3125rem; /* 69px */
     padding-inline-start: 0.625rem;
     position: fixed;
+    top: 0;
     width: 100%;
     border-bottom: 1px solid seashell;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-between;
+    padding: 0;
 }
 
 header h1 {
     display: inline-block;
+    max-height: 3rem;
+    margin-block: auto;
+    margin-inline-start: 0.625rem;
+}
+
+header > h1 > a {
+    display: inline-block;
+    max-height: 50px;
 }
 
 header img {
     aspect-ratio: 264/84;
     max-width: 100%;
+    max-height: inherit;
 }
 
 header ul {
     display: inline-flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    font-size: 1.375rem;
 }
 
- header li {
-     display: inline;
-     text-decoration: underline;
- }
+
+
 
