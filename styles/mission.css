@@ -1,6 +1,24 @@
+#mission {
+    height: 43.75rem; /*700px */
+    background-image: url(../resources/Images/img-mission-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: grid;
+    align-content: center;
+}
 
 #mission::before {
     content: '';
     display: block;
     margin-block-start: 69px;
+}
+
+#mission h2,
+#mission h4 {
+    background-color: black;
+    margin-block: auto;
+    padding-block: 0.5rem;
+    padding-inline: 1rem;
 }

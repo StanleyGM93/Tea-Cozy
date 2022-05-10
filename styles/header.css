@@ -2,6 +2,8 @@ header {
     height: 4.3125rem; /* 69px */
     padding-inline-start: 0.625rem;
     position: fixed;
+    z-index: 1;
+    background-color: black;
     top: 0;
     width: 100%;
     border-bottom: 1px solid seashell;
@@ -38,6 +40,7 @@ header ul {
     align-items: center;
     gap: 2rem;
     font-size: 1.375rem;
+    margin-inline-end: 1rem;
 }
 
 
