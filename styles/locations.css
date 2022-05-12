@@ -1,0 +1,43 @@
+#locations {
+    height: 31.25rem; /* 500px */
+    max-width: 75rem; /* 1200px */
+    background-image: url(../resources/Images/img-locations-background.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: center;
+    margin-inline: auto;
+    position: relative;
+}
+
+#locations ul {
+    display: inline-block;
+    width: 18.75rem; /* 300px */
+    background-color: black;
+    margin-block: auto;
+    opacity: 1; 
+    position: relative;
+    inset-block: 0;
+}
+
+#locations ul + ul {
+    margin-inline-start: 2.5rem;  /* 40px */
+}
+
+#locations h3 {
+    margin-block: 0rem;
+}
+
+#locations li:first-child {
+    font-size: 1.5rem;
+    line-height: 2;
+    margin-block-start: 0.5rem;
+}
+
+#locations li:not(:first-child) {
+    font-size: 1.375rem;
+    line-height: 3;
+}
+
+#locations li:last-child {
+    margin-block-end: 0.5rem;
+}
