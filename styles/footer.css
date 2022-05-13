@@ -1,0 +1,17 @@
+.contact_information {
+    height: 12.5rem; /* 200px */
+    line-height: 1.5;
+}
+
+.contact_information h2 {
+    margin-block-start: 1rem;
+}
+
+.contact_information h5 {
+    font-size: 1.1rem;
+}
+
+#copyright {
+    text-align: start;
+    margin-inline-start: 1.25rem; /* 20px */
+}
