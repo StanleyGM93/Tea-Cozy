@@ -10,18 +10,35 @@
 }
 
 #locations h2 {
+    position: relative;
     margin-block-start: 0;
+    margin-block-end: 1rem;
+    top: calc(115px - 37px - 16px); /* See below*/
 }
 
-#locations ul {
+/* #locations ul {
     display: inline-block;
-    width: 18.75rem; /* 300px */
+    width: 18.75rem; 
     background-color: black;
     margin-block: auto;
     opacity: 1; 
     position: relative;
-    top: 50%;
-    transform: translateY(-50%);
+    top: calc(115px - 37px - 16px);
+} */
+
+#locations ul {
+    display: inline-flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 18.75rem;
+    background-color: black;
+    margin-block: auto;
+    opacity: 1; 
+    position: relative;
+    top: calc(115px - 37px - 16px); 
+    /* Article height - ul height = 115px. 
+        h2 height is 37 px
+        h2 margin is 16px*/
 }
 
 #locations ul + ul {
