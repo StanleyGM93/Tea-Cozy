@@ -1,6 +1,7 @@
 #featured_tea {
     max-width: 1000px;
     margin: 0 auto;
+    margin-block-end: 3rem;
 }
 
 #featured_tea h4{
