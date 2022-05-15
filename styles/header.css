@@ -1,41 +1,39 @@
 header {
-    height: 4.3125rem; /* 69px */
-    padding-inline-start: 0.625rem;
-    position: fixed;
+    position: sticky;
+    inset-block-start: 0;
+    inset-inline-start: 0;
+    inset-inline-end: 0;
     z-index: 1;
-    background-color: black;
-    top: 0;
-    width: 100%;
-    border-bottom: 1px solid seashell;
     display: flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: space-between;
+    align-items: center;
     padding: 0;
+    padding-inline-start: 0.625rem;
+    border-bottom: 1px solid seashell;
+    background-color: black;
 }
 
 header h1 {
-    display: inline-block;
-    max-height: 3rem;
-    margin-block: auto;
+    margin: 0;
     margin-inline-start: 0.625rem;
 }
 
-header > h1 > a {
-    display: inline-block;
-    max-height: 50px;
-}
-
-header img {
-    aspect-ratio: 264/84;
-    max-width: 100%;
-    max-height: inherit;
+header h1 a {
+    display: block;
+    text-indent: -9999px;
+    overflow: hidden;
+    white-space: nowrap;
+    height: 50px;
+    width: 157px;
+    background-image: url('../resources/Images/img-tea-cozy-logo.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
 
 header ul {
     display: inline-flex;
     flex-direction: row;
-    flex-wrap: nowrap;
     justify-content: center;
     align-items: center;
     gap: 2rem;

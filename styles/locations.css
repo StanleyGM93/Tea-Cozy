@@ -16,16 +16,6 @@
     top: calc(115px - 37px - 16px); /* See below*/
 }
 
-/* #locations ul {
-    display: inline-block;
-    width: 18.75rem; 
-    background-color: black;
-    margin-block: auto;
-    opacity: 1; 
-    position: relative;
-    top: calc(115px - 37px - 16px);
-} */
-
 #locations ul {
     display: inline-flex;
     flex-direction: column;

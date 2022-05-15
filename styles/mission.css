@@ -1,25 +1,23 @@
 #mission {
-    height: 43.75rem; /*700px */
+    margin-block-start: 0;
+    margin-block-end: 3rem;
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding: 16rem 0;
+    max-width: 1200px;
     background-image: url(../resources/Images/img-mission-background.jpg);
     background-repeat: no-repeat;
     background-size: cover;
-    max-width: 1200px;
-    margin: 0 auto;
-    display: grid;
-    align-content: center;
-    margin-block-end: 3rem;
+    
 }
 
-#mission::before {
-    content: '';
-    display: block;
-    margin-block-start: 69px;
-}
-
-#mission h2,
-#mission h4 {
+.container {
+    margin-block-start: auto;
+    margin-block-end: auto;
+    padding-block-start: 0.5rem;
+    padding-block-end: 0.5rem;
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    color: seashell;
     background-color: black;
-    margin-block: auto;
-    padding-block: 0.5rem;
-    padding-inline: 1rem;
 }
