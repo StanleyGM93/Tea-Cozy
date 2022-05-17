@@ -7,8 +7,12 @@
     margin-block-start: 1rem;
 }
 
-.contact_information h5 {
-    font-size: 1.1rem;
+.contact_information a {
+    text-decoration: none;
+}
+
+.contact_information a:hover {
+    font-weight: bold;
 }
 
 #copyright {
