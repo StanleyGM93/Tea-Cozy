@@ -1,55 +1,43 @@
 #locations {
-    height: 31.25rem; /* 500px */
-    max-width: 75rem; /* 1200px */
-    background-image: url(../resources/Images/img-locations-background.jpg);
+    margin-inline-start: auto;
+    margin-inline-end: auto;
+    padding: 5rem 0;
+    max-width: 1200px;
+    background-image: url('../resources/Images/img-locations-background.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position-y: center;
-    margin-inline: auto;
-    position: relative;
-}
-
-#locations h2 {
-    position: relative;
-    margin-block-start: 0;
-    margin-block-end: 1rem;
-    top: calc(115px - 37px - 16px); /* See below*/
-}
-
-#locations ul {
-    display: inline-flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-    width: 18.75rem;
-    background-color: black;
-    margin-block: auto;
-    opacity: 1; 
-    position: relative;
-    top: calc(115px - 37px - 16px); 
-    /* Article height - ul height = 115px. 
-        h2 height is 37 px
-        h2 margin is 16px*/
-}
-
-#locations ul + ul {
-    margin-inline-start: 2.5rem;  /* 40px */
 }
 
 #locations h3 {
-    margin-block: 0rem;
-}
-
-#locations li:first-child {
     font-size: 1.5rem;
-    line-height: 2;
-    margin-block-start: 0.5rem;
 }
 
-#locations li:not(:first-child) {
-    font-size: 1.375rem;
+#locations ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+}
+
+#locations li {
+    max-width: 300px;
+    width: 25%;
+    background-color: black;
+}
+
+#locations p {
+    padding-inline-start: 1rem;
+    padding-inline-end: 1rem;
+    font-size: clamp(0.5rem, 22px, 2rem);
     line-height: 3;
 }
 
-#locations li:last-child {
-    margin-block-end: 0.5rem;
+#locations a {
+    clip: rect(0 0 0 0);
+    clip-path: inset(50%);
+    height: 1px;
+    overflow: hidden;
+    position: absolute;
+    white-space: nowrap;
+    width: 1px;
 }
